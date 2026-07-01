@@ -1,0 +1,29 @@
+[indent]
+kind = "Space"
+width = 4
+
+[layout]
+max_line_width = 120
+
+[output]
+quote_style = "Double"
+end_of_line = "LF"
+insert_final_newline = true
+trailing_table_separator = "Never"
+
+[spacing]
+space_inside_braces = true
+space_before_func_paren = false
+space_before_call_paren = false
+space_inside_parens = false
+space_inside_brackets = false
+space_around_math_operator = true
+space_around_concat_operator = true
+space_around_assign_operator = true
+
+[comments]
+space_after_comment_dash = false
+
+[emmy_doc]
+space_between_tag_columns = true
+align_tag_columns = true
