@@ -1,5 +1,6 @@
 {
     "[lua]": {
+        "editor.formatOnSave": true,
         "editor.defaultFormatter": "tangzx.emmylua"
     },
     "cSpell.words": [

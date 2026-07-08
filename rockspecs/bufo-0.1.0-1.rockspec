@@ -22,6 +22,7 @@ dependencies = {
 build = {
     type = "builtin",
     modules = {
-        bufo = "src/bufo.lua"
+        bufo = "src/bufo.lua",
+        ["bufo.runner"] = "src/bufo/runner.lua"
     }
 }

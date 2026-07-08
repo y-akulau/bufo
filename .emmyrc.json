@@ -1,0 +1,19 @@
+{
+    "runtime": {
+        "version": "Lua5.1",
+        "requirePattern": ["?.lua", "?/init.lua"]
+    },
+    "workspace": {
+        "workspaceRoots": ["./src"],
+        "library": [
+            {
+                "path": "lua_modules/share/lua/5.1",
+                "ignoreGlobs": ["bufo.lua", "bufo/**"]
+            },
+            {
+                "path": "lua_modules/share/lua/5.5",
+                "ignoreGlobs": ["bufo.lua", "bufo/**"]
+            }
+        ]
+    }
+}
